@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clara Carmona | Computational Architecture</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <script defer src="./JS/script.js"></script>
+    <meta name="description" content="Digital Fabrication, Research, Computational Design, and AI by Clara Carmona">
+    <meta property="og:title" content="Clara Carmona | Computational Architecture">
+    <meta property="og:description" content="Digital Fabrication, Research, Computational Design, and AI">
+    <meta property="og:type" content="website">
+</head>
+<body>
+
+    <div class="hero-section">
+        <div class="gradient-overlay"></div>
+        <video autoplay muted loop class="video-background" id="video1">
+            <source src="./VIDEO/HORIZONTAL_LANDING.mp4" type="video/mp4">
+        </video>
+        <div class="overlay content">
+            <div class="top-right">
+                <div class="menu-button" onclick="toggleMenu()">MENU</div>
+                <div class="location-language">
+                    <div class="location-time">
+                        <span id="location">CDMX/BARCELONA</span>
+                        <span id="current-time"></span>
+                    </div>
+                    <div class="language-selector" onclick="toggleDropdown()">
+                        <span id="selected-language">EN</span>
+                        <div id="language-options" class="dropdown-content">
+                            <div id="lang-en" data-lang="en">EN</div>
+                            <div id="lang-es" data-lang="es">ES</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1>CLARA <br>CARMONA</h1>
+            <div class="bottom-right">
+                <div class="arrow-container">
+                    <span class="arrow-glyph">&#x2192;</span>
+                </div>
+                <div class="text-container">
+                    <p>'ARCHITECTURE<br>-DIGITAL FAB<br>-AI'</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="new-layout" id="new-section">
+        <div class="vertical-video-container">
+            <video autoplay muted loop class="vertical-video-background" id="video3">
+                <source src="./VIDEO/VERTICAL_LANDING.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="new-overlay">
+            <h1><span class="medium-text">ARE</span><br>YOU<br>READY? |<br>ARCHITECTURE |<br>MATERIAL |<br>AI <span class="medium-text-italic">(KIND OF)</span></h1>
+            <div class="links-row">
+                <a href="./HTML/about.html">ABOUT</a>
+                <a href="./HTML/works_1.html">WORKS</a>
+                <a href="./HTML/lab.html">LAB</a>
+                <a href="./HTML/outreach.html">OUTREACH</a>
+                <a href="./HTML/gallery.html" class="honors-awards">GALLERY</a>
+                <div class="media-menu">
+                    <span class="media-link">MEDIA</span>
+                    <div class="links-column">
+                        <a href="https://github.com/jmuozan" target="_blank">GITHUB</a>
+                        <a href="https://www.instagram.com/jmunyozz" target="_blank">INSTAGRAM</a>
+                        <a href="https://www.linkedin.com/in/jorgemunozzanon/" target="_blank">LINKEDIN</a>
+                        <a href="https://twitter.com/jorgemunyozz" target="_blank">TWITTER</a>
+                        <a href="mailto:jmuozan@gmail.com" target="_blank">MAIL ME</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Clara Carmona | <a href="https://github.com/jmuozan" target="_blank">View Source on GitHub</a></p>
+    </footer>
+    
+</body>
+</html>
